@@ -7,6 +7,9 @@ import { AiOutlineTwitter } from 'react-icons/ai'
 import { IoLogoTiktok } from "react-icons/io5"
 import { IconContext } from "react-icons"
 import Link from 'next/link';
+import { Icon } from '@mui/material';
+import { SvgIcon } from '@mui/material';
+import { ReactSVG } from 'react-svg'
 
 const Home: NextPage = () => {
   return (
@@ -29,7 +32,7 @@ const Home: NextPage = () => {
               <Link href="#blog ">Blog</Link>
               <Link href="#location">Location</Link>
               <Link href="#pricing">Pricing</Link>
-              <Link href="#explore">Explore us</Link>
+              <Link href="#explore" as="explore">Explore us</Link>
               <Link href="#about">About us</Link>
             </div>
             </div>
@@ -70,7 +73,7 @@ const Home: NextPage = () => {
                   <h2 className="text-lg text-center font-bold font-sans">
                     Patrick Gerald Murphy visited the museum
                   </h2>
-                  <p className="mt-4">In march 2019 the museum was visited by a member of Cork County Council Patrick Gerald Murphy. He described museum as "A wonderful demonstration of what a community working together to enrich their local area can achieve.".</p>
+                  <p className="mt-4">In march 2019 the museum was visited by a member of Cork County Council Patrick Gerald Murphy. He described museum as {`"`}A wonderful demonstration of what a community working together to enrich their local area can achieve.{`"`}.</p>
                 </div>
               </div>
               <div className="static">
@@ -79,7 +82,7 @@ const Home: NextPage = () => {
                     <h2 className="text-lg text-center font-medium font-sans">
                       Patrick Gerald Murphy visited the museum
                     </h2>
-                    <p className="mt-4">In march 2019 the museum was visited by a member of Cork County Council Patrick Gerald Murphy. He described museum as "A wonderful demonstration of what a community working together to enrich their local area can achieve.".</p>
+                    <p className="mt-4">In march 2019 the museum was visited by a member of Cork County Council Patrick Gerald Murphy. He described museum as {`"`}A wonderful demonstration of what a community working together to enrich their local area can achieve.{`"`}.</p>
                   </div>
                 </div>
                 <a href="">
@@ -237,6 +240,8 @@ const Home: NextPage = () => {
             </div>
           </div>
         </div>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js" async/>
+          <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js" async/>
       </main>
       <footer className="bg-b text-w flex flex-col px-24 justify-between pt-12">
         <div className="flex flex-row w-full justify-between">
@@ -274,8 +279,12 @@ const Home: NextPage = () => {
             </IconContext.Provider>
             <div className="icon-container transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-300">
                 <a href="https://www.instagram.com/passagemuseum/?hl=en">
-                  <ion-icon name="logo-instagram"></ion-icon>
-                  <ion-icon src="instagram2.svg"></ion-icon>
+                  <div className="svg1">
+                    <Image src="/logo-instagram2.png" width={43} height={43}></Image>
+                  </div>
+                  <div className="svg2">
+                    <Image src="/instagram3.png" width={43} height={43}></Image>
+                  </div>
                 </a>
               </div>
             <IconContext.Provider value={{size: '3rem', className:"transition ease-in-out delay-50 text-w hover:-translate-y-1 hover:scale-110 hover:text-twitter duration-300"}}>
@@ -287,8 +296,12 @@ const Home: NextPage = () => {
             </IconContext.Provider>
               <div className="icon-container transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-300">
                 <a href="https://www.tiktok.com/@passagemuseum">
-                  <ion-icon name="logo-tiktok" size=''></ion-icon>
-                  <ion-icon src="tiktok2.svg"></ion-icon>
+                  <div className="svg1">
+                    <Image src="/logo-tiktok2.png"  width={43} height={43}/>
+                  </div>
+                  <div className="svg2">
+                    <Image src='/tiktok4.png'  width={43} height={43}/>
+                  </div>
                 </a>
               </div>
               </div>
@@ -298,8 +311,7 @@ const Home: NextPage = () => {
           <div>
             <p className="text-gray text-center mt-12 text-xs font-thin">Copyright © 2022 Passage West, Design and code by <a href="https://www.admiam.com/" className="text-w">Adam Míka</a></p>
           </div>
-          <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-          <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+          
       </footer>
     </div>
   )

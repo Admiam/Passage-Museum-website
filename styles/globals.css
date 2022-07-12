@@ -2,17 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-ion-icon {
-    font-size: 48px;
-}
-.icon-container ion-icon:nth-child(2) {
+.icon-container .svg2 {
     display: none; 
   }
   
-  .icon-container:hover ion-icon:nth-child(1) {
+  .icon-container:hover .svg1 {
     display: none;
   }
   
-  .icon-container:hover ion-icon:nth-child(2) {
+  .icon-container:hover .svg2 {
     display: block;
   }
+  
