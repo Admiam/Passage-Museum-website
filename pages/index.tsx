@@ -26,7 +26,7 @@ const Home: NextPage = () => {
         <div className="bg-[url('../public/bg2x.png')] bg-cover pt-4 text-w">
           <div className="flex flex-row justify-between px-4 fixed z-40 w-full">
             <div className="">
-             <Image className="" src="/icon.png" alt="" width={34} height={20}></Image>
+             <Image className="" src="/icon.png" width={34} height={20}></Image>
             </div>
             <div className="space-x-10 font-sans flex justify-end font-medium">
               <Link href="#blog ">Blog</Link>
@@ -122,11 +122,11 @@ const Home: NextPage = () => {
                 </a>
               </div>
               <div className="mt-28">
-               <Image className="" src="/map.png" alt="" width={784} height={480}></Image>
+               <Image className="" src="/map.png" width={784} height={480}></Image>
               </div>
             </div>
             <div className="absolute left-[300px] top-[2450px]">
-              <Image className="" src="/pen3.png" alt="" width={779} height={920}></Image>
+              <Image className="" src="/pen3.png" width={779} height={920}></Image>
             </div>
           </div>
           <div className="mt-52">
@@ -134,8 +134,8 @@ const Home: NextPage = () => {
             <div className="flex flex-row justify-between px-24">
               <div className="bg-b p-2 w-80 h-full">
                 <div className="flex flex-row justify-between">
-                  <Image className="" src="/topL.png" alt="" width={43} height={43}></Image>
-                  <Image className="" src="/topP.png" alt="" width={43} height={43}></Image>
+                  <Image className="" src="/topL.png" width={43} height={43}></Image>
+                  <Image className="" src="/topP.png" width={43} height={43}></Image>
                 </div>
                 <div className="mx-10">
                   <h2 className="text-4xl font-cookie text-center">Default price</h2>
@@ -154,14 +154,14 @@ const Home: NextPage = () => {
                   </div>
                 </div>
                 <div className="flex flex-row justify-between">
-                  <Image className="" src="/botL.png" alt="" width={43} height={43}></Image>
-                  <Image className="" src="/botP.png" alt="" width={43} height={43}></Image>
+                  <Image className="" src="/botL.png" width={43} height={43}></Image>
+                  <Image className="" src="/botP.png" width={43} height={43}></Image>
                 </div>
               </div>
               <div className="bg-b p-2 h-full w-80">
                 <div className="flex flex-row justify-between">
-                  <Image className="" src="/topL.png" alt="" width={43} height={43}></Image>
-                  <Image className="" src="/topP.png" alt="" width={43} height={43}></Image>
+                  <Image className="" src="/topL.png" width={43} height={43}></Image>
+                  <Image className="" src="/topP.png" width={43} height={43}></Image>
                 </div>
                 <div className="mx-10">
                   <h2 className="text-4xl font-cookie text-center">Membership</h2>
@@ -178,14 +178,14 @@ const Home: NextPage = () => {
                   </div>
                 </div>
                 <div className="flex flex-row justify-between">
-                  <Image className="" src="/botL.png" alt="" width={43} height={43}></Image>
-                  <Image className="" src="/botP.png" alt="" width={43} height={43}></Image>
+                  <Image className="" src="/botL.png" width={43} height={43}></Image>
+                  <Image className="" src="/botP.png" width={43} height={43}></Image>
                 </div>
               </div>
               <div className="bg-b p-2 w-80 h-full">
                 <div className="flex flex-row justify-between">
-                  <Image className="" src="/topL.png" alt="" width={43} height={43}></Image>
-                  <Image className="" src="/topP.png" alt="" width={43} height={43}></Image>
+                  <Image className="" src="/topL.png" width={43} height={43}></Image>
+                  <Image className="" src="/topP.png" width={43} height={43}></Image>
                 </div>
                 <div className="mx-10">
                   <h2 className="text-4xl font-cookie text-center">Buy book</h2>
@@ -200,8 +200,8 @@ const Home: NextPage = () => {
                   </div>
                 </div>
                 <div className="flex flex-row justify-between">
-                  <Image className="" src="/botL.png" alt="" width={43} height={43}></Image>
-                  <Image className="" src="/botP.png" alt="" width={43} height={43}></Image>
+                  <Image className="" src="/botL.png" width={43} height={43}></Image>
+                  <Image className="" src="/botP.png" width={43} height={43}></Image>
                 </div>
               </div>       
             </div>
@@ -210,7 +210,7 @@ const Home: NextPage = () => {
             </div>
           </div>
           <div className="absolute left-10">
-                  <Image className="" src="/compass.png" alt="" width={215} height={215}></Image>
+                  <Image className="" src="/compass.png" width={215} height={215}></Image>
           </div>
           <div className="mt-80">
             <h1 className="text-7xl text-center font-500 font-cookie m-10" id="explore">Explore us</h1>
@@ -220,7 +220,7 @@ const Home: NextPage = () => {
                 <button className="font-cookie text-w text-4xl bg-red py-2 px-14 rounded-2xl mt-8">Explore</button>
               </div>
               <div>
-                <Image className="" src="/pictureSirius.png" alt="" width={543} height={624}></Image>
+                <Image className="" src="/pictureSirius.png" width={543} height={624}></Image>
               </div>
             </div>
           </div>
@@ -235,7 +235,7 @@ const Home: NextPage = () => {
                 </p>
               </div>
               <div className="rotate-3">
-                <Image className="" src="/pictureMuseum.png" alt="" width={399} height={399}></Image>
+                <Image className="" src="/pictureMuseum.png" width={399} height={399}></Image>
               </div>
             </div>
           </div>
