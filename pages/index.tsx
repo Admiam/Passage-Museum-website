@@ -7,9 +7,6 @@ import { AiOutlineTwitter } from 'react-icons/ai'
 import { IoLogoTiktok } from "react-icons/io5"
 import { IconContext } from "react-icons"
 import Link from 'next/link';
-import { Icon } from '@mui/material';
-import { SvgIcon } from '@mui/material';
-import { ReactSVG } from 'react-svg'
 
 const Home: NextPage = () => {
   return (
@@ -17,22 +14,20 @@ const Home: NextPage = () => {
       <Head>
         <title>Passage West Maritime Museum</title>
         <link rel="icon" href="/favicon.ico" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Cookie:ital@0;1&display=swap"
-          rel="stylesheet"
-        />
       </Head>
       <main>
         <div className="bg-[url('../public/bg2x.png')] bg-cover pt-4 text-w">
           <div className="flex flex-row justify-between px-4 fixed z-40 w-full">
             <div className="">
-             <Image className="" src="/icon.png" width={34} height={20}></Image>
+              <Link href="/">
+                <Image src="/icon.png" alt="logo" width={34} height={20} />
+              </Link>
             </div>
             <div className="space-x-10 font-sans flex justify-end font-medium">
-              <Link href="#blog ">Blog</Link>
+              <Link href="#blog">Blog</Link>
               <Link href="#location">Location</Link>
               <Link href="#pricing">Pricing</Link>
-              <Link href="#explore" as="explore">Explore us</Link>
+              <Link href="#explore">Explore us</Link>
               <Link href="#about">About us</Link>
             </div>
             </div>
@@ -122,11 +117,11 @@ const Home: NextPage = () => {
                 </a>
               </div>
               <div className="mt-28">
-               <Image className="" src="/map.png" width={784} height={480}></Image>
+               <Image src="/map.png" alt="map" width={784} height={480}></Image>
               </div>
             </div>
             <div className="absolute left-[300px] top-[2450px]">
-              <Image className="" src="/pen3.png" width={779} height={920}></Image>
+              <Image src="/pen3.png" alt="pen" width={779} height={920}></Image>
             </div>
           </div>
           <div className="mt-52">
@@ -134,8 +129,8 @@ const Home: NextPage = () => {
             <div className="flex flex-row justify-between px-24">
               <div className="bg-b p-2 w-80 h-full">
                 <div className="flex flex-row justify-between">
-                  <Image className="" src="/topL.png" width={43} height={43}></Image>
-                  <Image className="" src="/topP.png" width={43} height={43}></Image>
+                  <Image src="/topL.png" alt="top" width={43} height={43}></Image>
+                  <Image src="/topP.png" alt="top" width={43} height={43}></Image>
                 </div>
                 <div className="mx-10">
                   <h2 className="text-4xl font-cookie text-center">Default price</h2>
@@ -154,14 +149,14 @@ const Home: NextPage = () => {
                   </div>
                 </div>
                 <div className="flex flex-row justify-between">
-                  <Image className="" src="/botL.png" width={43} height={43}></Image>
-                  <Image className="" src="/botP.png" width={43} height={43}></Image>
+                  <Image src="/botL.png" alt="image" width={43} height={43}></Image>
+                  <Image src="/botP.png" alt="image" width={43} height={43}></Image>
                 </div>
               </div>
               <div className="bg-b p-2 h-full w-80">
                 <div className="flex flex-row justify-between">
-                  <Image className="" src="/topL.png" width={43} height={43}></Image>
-                  <Image className="" src="/topP.png" width={43} height={43}></Image>
+                  <Image src="/topL.png" alt="image" width={43} height={43}></Image>
+                  <Image src="/topP.png" alt="image" width={43} height={43}></Image>
                 </div>
                 <div className="mx-10">
                   <h2 className="text-4xl font-cookie text-center">Membership</h2>
@@ -178,14 +173,14 @@ const Home: NextPage = () => {
                   </div>
                 </div>
                 <div className="flex flex-row justify-between">
-                  <Image className="" src="/botL.png" width={43} height={43}></Image>
-                  <Image className="" src="/botP.png" width={43} height={43}></Image>
+                  <Image src="/botL.png" alt="image" width={43} height={43}></Image>
+                  <Image src="/botP.png" alt="image" width={43} height={43}></Image>
                 </div>
               </div>
               <div className="bg-b p-2 w-80 h-full">
                 <div className="flex flex-row justify-between">
-                  <Image className="" src="/topL.png" width={43} height={43}></Image>
-                  <Image className="" src="/topP.png" width={43} height={43}></Image>
+                  <Image src="/topL.png" alt="image" width={43} height={43}></Image>
+                  <Image src="/topP.png" alt="image" width={43} height={43}></Image>
                 </div>
                 <div className="mx-10">
                   <h2 className="text-4xl font-cookie text-center">Buy book</h2>
@@ -200,8 +195,8 @@ const Home: NextPage = () => {
                   </div>
                 </div>
                 <div className="flex flex-row justify-between">
-                  <Image className="" src="/botL.png" width={43} height={43}></Image>
-                  <Image className="" src="/botP.png" width={43} height={43}></Image>
+                  <Image src="/botL.png" alt="image" width={43} height={43}></Image>
+                  <Image src="/botP.png" alt="image" width={43} height={43}></Image>
                 </div>
               </div>       
             </div>
@@ -210,7 +205,7 @@ const Home: NextPage = () => {
             </div>
           </div>
           <div className="absolute left-10">
-                  <Image className="" src="/compass.png" width={215} height={215}></Image>
+                  <Image src="/compass.png" alt="compass" width={215} height={215}></Image>
           </div>
           <div className="mt-80">
             <h1 className="text-7xl text-center font-500 font-cookie m-10" id="explore">Explore us</h1>
@@ -220,7 +215,7 @@ const Home: NextPage = () => {
                 <button className="font-cookie text-w text-4xl bg-red py-2 px-14 rounded-2xl mt-8">Explore</button>
               </div>
               <div>
-                <Image className="" src="/pictureSirius.png" width={543} height={624}></Image>
+                <Image src="/pictureSirius.png" alt="Sirius ship"width={543} height={624}></Image>
               </div>
             </div>
           </div>
@@ -235,7 +230,7 @@ const Home: NextPage = () => {
                 </p>
               </div>
               <div className="rotate-3">
-                <Image className="" src="/pictureMuseum.png" width={399} height={399}></Image>
+                <Image src="/pictureMuseum.png" alt="picture"width={399} height={399}></Image>
               </div>
             </div>
           </div>
@@ -252,6 +247,8 @@ const Home: NextPage = () => {
             <h4 className="text-4xl font-cookie mb-1">Visit</h4>
             <span className="text-gray font-thin">Passage West Maritime Museum</span>
             <span className="text-gray font-thin">Main St, Passage West, Co. Cork</span>
+            <span className="text-gray font-thin">Wednesday - Friday: 2pm - 5:30pm</span>
+            <span className="text-gray font-thin">Saturday - Sunday: 2pm - 5pm</span>
           </div>
           <div className="flex flex-col">
             <h4 className="text-4xl font-cookie mb-1">Contact</h4>
@@ -280,10 +277,10 @@ const Home: NextPage = () => {
             <div className="icon-container transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-300">
                 <a href="https://www.instagram.com/passagemuseum/?hl=en">
                   <div className="svg1">
-                    <Image src="/logo-instagram2.png" width={43} height={43}></Image>
+                    <Image src="/logo-instagram2.png" alt="instagram logo" width={43} height={43}></Image>
                   </div>
                   <div className="svg2">
-                    <Image src="/instagram3.png" width={43} height={43}></Image>
+                    <Image src="/instagram3.png" alt="instagram logo" width={43} height={43}></Image>
                   </div>
                 </a>
               </div>
@@ -297,10 +294,10 @@ const Home: NextPage = () => {
               <div className="icon-container transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-300">
                 <a href="https://www.tiktok.com/@passagemuseum">
                   <div className="svg1">
-                    <Image src="/logo-tiktok2.png"  width={43} height={43}/>
+                    <Image src="/logo-tiktok2.png" alt="tiktok logo" width={43} height={43}/>
                   </div>
                   <div className="svg2">
-                    <Image src='/tiktok4.png'  width={43} height={43}/>
+                    <Image src='/tiktok4.png' alt="tiktok logo" width={43} height={43}/>
                   </div>
                 </a>
               </div>
