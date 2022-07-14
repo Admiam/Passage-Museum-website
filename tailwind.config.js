@@ -25,7 +25,6 @@ module.exports = {
       'instagram2': '#DE1442',
       'instagram3': '#7C36AE',
       'twitter': '#1DA1F2',
-      'tiktok': '',
     },
     fontFamily: {
       sans: ['Roboto', 'sans-serif'],

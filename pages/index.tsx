@@ -19,10 +19,14 @@ const Home: NextPage = () => {
       <Head>
         <title>Passage West Maritime Museum</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta name="robots" content="all" />
+        <meta name="googlebot" content="noindex,nofollow" />
+        <meta name="google" content="nositelinkssearchbox" />
+        <meta name="google" content="notranslate" />
       </Head>
       <main>
-        <div className="bg-[url('../public/bg2x.png')] bg-cover pt-4 text-w">
-          <div className="flex flex-row justify-between px-4 fixed z-40 w-full">
+        <div className="bg-[url('../public/bg2x.png')] bg-cover pt-4 text-w w-screen">
+          <div className="flex flex-row justify-between px-4 fixed z-40 sm:w-full sm:bg-auto">
             <div className="cursor-pointer p-4">
               <Link href="/">
                 <Image src="/icon.png" alt="logo" width={34} height={20} />
