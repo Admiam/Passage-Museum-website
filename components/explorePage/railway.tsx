@@ -6,17 +6,16 @@ const Railway = () => {
   return (
     <div className="mx-32 flex flex-row text-w">
       <div className="w-1/2 mr-8">
-        <Image src="/neva.png" alt="Sirius Replica" width={657} height={449} className="rounded-lg" />
+        <Image src="/railway2.png" alt="Sirius Replica" width={600} height={327} className="rounded-lg" />
       </div>
       <div className="flex flex-col w-1/2 justify-between">
-        <div className="flex flex-row justify-between items-center">
           <h1 className="font-cookie text-5xl">The Cork Blackrock & Passage railway</h1>
-          <Image src="/nevaBones2.png" alt="Death" width={100} height={91} layout="fixed" />
-        </div>
-        <p className="font-sans text-xl font-normal mt-2">Neva was a three-masted barque launched in 1813. She was used to transporting convicts to Australia. During her second voyage carrying convicts she wrecked in Bass Strait on 13 May 1835. It was one of the worst shipwrecks in Australian history, 224 lives were lost here.</p>
-        <div className="mt-2 font-cookie text-b text-4xl bg-w py-2 px-14 rounded-2xl w-fit">
-            <Link className="" href="/#location">Visit us</Link>
-        </div>
+        <p className="font-sans text-xl font-normal mt-2">The Cork Blackrock & Passage railway opened in 1850, initially as a short suburban line, but after a 50 years of successful operation it was extended from Passage West, via Carrigaline, to Crosshaven. In narrow gauge days the line had two unusual features - a double track section between Cork and Blackrock, And a tunnel from Passage to the next station at Glenbrook. In 1930s, the growth of rival forms of transport had rendered the line totally uneconomic and it was closed to all traffic in 1932.</p>
+        <Link className="" href="/">
+            <button className="mt-2 font-cookie text-b text-4xl bg-w py-2 px-14 rounded-2xl w-fit">
+                Visit us
+            </button>
+        </Link>
       </div>
     </div>
   )

@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Sirius from '../components/explorePage/sirius'
 import Neva from '../components/explorePage/neva'
 import Railway from '../components/explorePage/railway'
+import Submarine from '../components/explorePage/submarine'
 
 const ExplorePage = () => {
   return (   
@@ -15,6 +16,9 @@ const ExplorePage = () => {
         </div>
         <div className="snap-center flex-shrink-0 h-screen w-screen flex items-center">
           <Railway />
+        </div>
+        <div className="snap-center flex-shrink-0 h-screen w-screen flex items-center">
+          <Submarine />
         </div>
       </div>
   )
