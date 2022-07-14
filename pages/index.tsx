@@ -19,6 +19,8 @@ const Home: NextPage = () => {
       <Head>
         <title>Passage West Maritime Museum</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta name="description" content="Visit our museum"/>
+        <meta name="og:title" content="Passage West Maritime Museum"/>
         <meta name="robots" content="all" />
         <meta name="googlebot" content="noindex,nofollow" />
         <meta name="google" content="nositelinkssearchbox" />
