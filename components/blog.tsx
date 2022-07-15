@@ -12,7 +12,7 @@ const Blog = () => {
                 <div className="rotate-6 relative left-3 sm:left-0">
                   <Image className="z-20" src="/price.png" alt="Sirius ship" width={262} height={366}></Image>
                 </div>
-                <div className="bg-[url('../public/pricePaper.png')] py-6 pl-6 pr-5 bg-no-repeat relative top-4 right-1 text-text w-[340px] h-50 z-0">
+                <div className="bg-[url('../public/pricePaper.png')] md:py-6 sm:pb-2 pl-6 pr-5 bg-no-repeat relative top-4 right-1 text-text w-[340px] h-50 z-0">
                   <h2 className="text-xl text-center font-bold font-sans">
                     Heart of the Community Award
                   </h2>
@@ -23,8 +23,8 @@ const Blog = () => {
                 <Image className="z-20" src="/visitMuseum.png" alt="Museum visit" width={532} height={402}></Image>
               </div>
             </div>
-            <div className="flex xl:flex-row md:flex-col-reverse sm:flex-col">
-              <div className="flex xl:flex-row static">
+            <div className="flex xl:flex-row md:flex-col-reverse sm:flex-col-reverse">
+              <div className="flex xl:flex-row static sm:flex-col">
                 <div className="relative left-4 bottom-4">
                   <Image className="z-20" src="/patrick.png" alt="Patrick Gerald Murphy visited the museum" width={475} height={328}></Image>
                 </div>
@@ -35,7 +35,7 @@ const Blog = () => {
                   <p className="mt-2 xl:text-base md:text-sm">In march 2019 the museum was visited by a member of Cork County Council Patrick Gerald Murphy. He described museum as {`"`}A wonderful demonstration of what a community working together to enrich their local area can achieve.{`"`}.</p>
                 </div>
               </div>
-              <div className="flex xl:flex-col md:flex-row">
+              <div className="flex xl:flex-col md:flex-row sm:flex-col">
               <div className="relative bottom-7 left-2 z-0">
                   <div className="bg-[url('../public/visitPaper.png')] py-8 pl-6 pr-3 bg-no-repeat bg-contain text-text w-[434px] h-[283px]">
                     <h2 className="xl:text-lg text-center font-bold font-sans">
@@ -46,7 +46,7 @@ const Blog = () => {
                 </div>
                 <div className="md:mt-16">
                   <a href="">
-                    <button type="button" className="bg-brown shadow-inner shadow-brownSH p-4 font-sans text-text rounded-xl text-lg font-semibold align-center xl:ml-14 md:m-4 sm:m-0 relative bottom-4 xl:w-80 md:w-40">
+                    <button type="button" className="bg-brown shadow-inner shadow-brownSH p-4 font-sans text-text rounded-xl text-lg font-semibold align-center xl:ml-14 md:m-4 sm:my-4 relative bottom-4 xl:w-80 md:w-40 sm:w-full">
                       <p>See more in our blog</p>
                     </button>
                   </a>

@@ -53,15 +53,15 @@ const Home: NextPage = () => {
               </div>
             </div>
             </div>
-          <div className="xl:mt-[354px] xl:ml-[476px] md:mt-[354px] md:ml-[200px]">
+          <div className="xl:mt-[354px] xl:ml-[476px] lg:mt-[450px] lg:ml-[200px] md:mt-[354px] md:ml-[200px] sm:mt-[180px] sm:ml-[100px]">
             <Image className="" src="/sirius.png" alt="Sirius ship" width={149} height={74}></Image>
           </div>
-          <div className="xl:mt-[30px] md:mt-16 sm:mt-80">
-            <h1 className="xl:text-8xl text-center font-bold font-cookie m-10 sm:text-4xl md:text-6xl">
+          <div className="xl:mt-[30px] md:mt-16 sm:mt-4">
+            <h1 className="xl:text-8xl text-center font-bold font-cookie m-10 sm:text-4xl md:text-6xl lg:text-7xl">
               Passage West Maritime Museum
             </h1>
           </div>
-          <div  className="xl:mt-96 xl:mx-40 md:mt-80 md:mx-20 sm:mx-5 sm:mt-16">
+          <div  className="xl:mt-96 xl:mx-40 md:mt-80 md:mx-20 sm:mx-5 sm:mt-40">
             <Blog />
           </div>
           <div className="xl:bg-[url('../public/mapBg2.png')] md:bg-[url('../public/mobileMap2.png')] h-auto  xl:py-16 xl:px-24 md:pt-10 md:pb-96 md:px-20 bg-no-repeat bg-cover xl:mx-14 md:mx-0 mt-[176px] text-text sm:mx-max-0">

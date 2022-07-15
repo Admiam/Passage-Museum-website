@@ -35,7 +35,7 @@ const Map = () => {
         <Image src="/map.png" alt="map" width={784} height={480}></Image>
       </div>
     </div>
-    <div className="absolute xl:left-[290px] xl:top-[2445px] md:left-[200] md:top-[3100px] xl:w-[800px] md:w-[500px] xl:rotate-6 md:rotate-[350deg]">
+    <div className="absolute xl:left-[290px] xl:top-[2445px] lg:left-[200px] lg:top-[3300px] md:left-[200] md:top-[3100px] xl:w-[800px] md:w-[500px] xl:rotate-6 md:rotate-[350deg]">
       <Image src="/pen3.png" alt="pen" width={779} height={920}></Image>
     </div>
   </div>
