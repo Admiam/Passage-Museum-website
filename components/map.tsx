@@ -4,7 +4,7 @@ import Image from 'next/image'
 const Map = () => {
   return (
   <div>
-    <div className="absolute right-24 ">
+    <div className="absolute xl:right-24 md:right-10 xl:w-60 md:w-40">
       <Image className="" src="/compassMap.png" alt="Compass" width={294} height={294}></Image>
     </div>
     <h1 className="text-7xl text-center font-500 font-cookie m-10" id="location">Where we are</h1>
@@ -31,11 +31,11 @@ const Map = () => {
           <button type="button" className="ml-5 px-10 py-2 mt-8 border-2 rounded-full text-xl font-thin font-sans">Navigate</button>
         </a>
       </div>
-      <div className="mt-28">
-      <Image src="/map.png" alt="map" width={784} height={480}></Image>
+      <div className="xl:mt-28 md:mt-60 ">
+        <Image src="/map.png" alt="map" width={784} height={480}></Image>
       </div>
     </div>
-    <div className="absolute left-[300px] top-[2450px]">
+    <div className="absolute xl:left-[290px] xl:top-[2445px] md:left-[200] md:top-[3100px] xl:w-[800px] md:w-[500px] xl:rotate-6 md:rotate-[350deg]">
       <Image src="/pen3.png" alt="pen" width={779} height={920}></Image>
     </div>
   </div>

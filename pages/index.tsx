@@ -12,6 +12,7 @@ import Map from '../components/map'
 import Pricing from '../components/pricing'
 import Explore from '../components/explore'
 import About from '../components/about'
+import Footer from '../components/footer'
 
 const Home: NextPage = () => {
   return (
@@ -27,7 +28,7 @@ const Home: NextPage = () => {
         <meta name="google" content="notranslate" />
       </Head>
       <main>
-        <div className="bg-[url('../public/bg2x.png')] bg-cover pt-4 text-w w-screen">
+        <div className="xl:bg-[url('../public/bg2x.png')] bg-cover pt-4 text-w w-full sm:bg-[url('../public/mobileBg.png')]">
           <div className="flex flex-row justify-between px-4 fixed z-40 sm:w-full sm:bg-auto">
             <div className="cursor-pointer p-4">
               <Link href="/">
@@ -52,18 +53,18 @@ const Home: NextPage = () => {
               </div>
             </div>
             </div>
-          <div className="mt-[354px] ml-[476px]">
+          <div className="xl:mt-[354px] xl:ml-[476px] md:mt-[354px] md:ml-[200px]">
             <Image className="" src="/sirius.png" alt="Sirius ship" width={149} height={74}></Image>
           </div>
-          <div className="mt-[30px]">
-            <h1 className="text-8xl text-center font-bold font-cookie m-10">
+          <div className="xl:mt-[30px] md:mt-16 sm:mt-80">
+            <h1 className="xl:text-8xl text-center font-bold font-cookie m-10 sm:text-4xl md:text-6xl">
               Passage West Maritime Museum
             </h1>
           </div>
-          <div  className="mt-96 mx-40">
+          <div  className="xl:mt-96 xl:mx-40 md:mt-80 md:mx-20 sm:mx-5 sm:mt-16">
             <Blog />
           </div>
-          <div className="bg-[url('../public/mapBg2.png')] py-16 bg-no-repeat bg-contain mx-14 pl-24 pr-24 mt-[176px] text-text w-[1333px] h-[928px] static">
+          <div className="xl:bg-[url('../public/mapBg2.png')] md:bg-[url('../public/mobileMap2.png')] h-auto  xl:py-16 xl:px-24 md:pt-10 md:pb-96 md:px-20 bg-no-repeat bg-cover xl:mx-14 md:mx-0 mt-[176px] text-text sm:mx-max-0">
             <Map />
           </div>
           <div className="mt-52">
@@ -75,84 +76,15 @@ const Home: NextPage = () => {
           <div className="mt-80">
             <Explore path="/exploreUs" />
           </div>
-          <div className="mt-80 px-24 pb-2">
+          <div className="xl:mt-80 xl:px-24 md:px-20 pb-2">
             <About />
           </div>
         </div>
         <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js" async/>
           <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js" async/>
       </main>
-      <footer className="bg-b text-w flex flex-col px-24 justify-between pt-12">
-        <div className="flex flex-row w-full justify-between">
-          <div>
-            <Image src="/logoCircle.png" alt="Passage West Logo" width={150} height={150} />
-          </div>
-          <div className="flex flex-col">
-            <h4 className="text-4xl font-cookie mb-1">Visit</h4>
-            <span className="text-gray font-thin">Passage West Maritime Museum</span>
-            <span className="text-gray font-thin">Main St, Passage West, Co. Cork</span>
-            <span className="text-gray font-thin">Wednesday - Friday: 2pm - 5:30pm</span>
-            <span className="text-gray font-thin">Saturday - Sunday: 2pm - 5pm</span>
-          </div>
-          <div className="flex flex-col">
-            <h4 className="text-4xl font-cookie mb-1">Contact</h4>
-            <span className="text-gray font-thin">087 1357634</span>
-            <span className="text-gray font-thin">info@passagemuseum.ie</span>
-          </div>
-          <div className="flex flex-col">
-            <h4 className="text-4xl font-cookie mb-1">Explore</h4>
-            <a href="#blog" className="text-gray font-thin">Blog</a>
-            <a href="#pricing" className="text-gray font-thin">Pricing</a>
-            <a href="#explore" className="text-gray font-thin">Explore us</a>
-            <a href="https://www.patreon.com/" className="text-gray font-thin">Donate</a>
-          </div>
-         </div>
-          <div className="relative flex py-5 items-center h-8">
-            <div className="flex-grow border-t border-gray"></div>
-            <span className="flex-shrink mx-4 text-gray-400">
-              <div className="flex flex-row space-x-7 items-center">
-            <IconContext.Provider value={{size: '3rem', className:"transition ease-in-out delay-50 text-w hover:-translate-y-1 hover:scale-110 hover:text-facebook duration-300"}}>
-                <div>
-                  <a href="https://www.facebook.com/passagemuseum/" className="hover:bg-orange">
-                    <GrFacebookOption />
-                  </a>
-                </div>
-            </IconContext.Provider>
-            <div className="icon-container transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-300">
-                <a href="https://www.instagram.com/passagemuseum/?hl=en">
-                  <div className="svg1">
-                    <Image src="/logo-instagram2.png" alt="instagram logo" width={43} height={43}></Image>
-                  </div>
-                  <div className="svg2">
-                    <Image src="/instagram3.png" alt="instagram logo" width={43} height={43}></Image>
-                  </div>
-                </a>
-              </div>
-            <IconContext.Provider value={{size: '3rem', className:"transition ease-in-out delay-50 text-w hover:-translate-y-1 hover:scale-110 hover:text-twitter duration-300"}}>
-                <div>
-                  <a href="https://mobile.twitter.com/passagemuseum">
-                    <AiOutlineTwitter />
-                  </a>
-                </div>
-            </IconContext.Provider>
-              <div className="icon-container transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-300">
-                <a href="https://www.tiktok.com/@passagemuseum">
-                  <div className="svg1">
-                    <Image src="/logo-tiktok2.png" alt="tiktok logo" width={43} height={43}/>
-                  </div>
-                  <div className="svg2">
-                    <Image src='/tiktok4.png' alt="tiktok logo" width={43} height={43}/>
-                  </div>
-                </a>
-              </div>
-              </div>
-            </span>
-            <div className="flex-grow border-t border-gray"></div>
-          </div>
-          <div>
-            <p className="text-gray text-center mt-12 text-xs font-thin">Copyright © 2022 Passage West, Design and code by <a href="https://www.admiam.com/" className="text-w">Adam Míka</a></p>
-          </div>
-          
+      <footer className="bg-b text-w flex flex-col xl:px-24 md:px-16 justify-between pt-12">
+        <Footer />
       </footer>
     </div>
   )

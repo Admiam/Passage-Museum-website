@@ -5,7 +5,7 @@ const Pricing = () => {
   return (
     <div>
       <h1 className="text-7xl text-center font-500 font-cookie m-10" id="pricing">Pricing</h1>
-            <div className="flex flex-row justify-between px-24">
+            <div className="flex xl:flex-row sm:flex-col sm:space-y-4 xl:justify-between md:items-center px-24">
               <div className="bg-b p-2 w-80 h-full">
                 <div className="flex flex-row justify-between">
                   <Image src="/topL.png" alt="top" width={43} height={43}></Image>
