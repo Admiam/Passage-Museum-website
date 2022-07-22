@@ -9,7 +9,7 @@ const Footer = () => {
     <div className="text-w">
         <div className="flex lg:flex-row sm:flex-col mn:flex-col w-full xl:mb-0 lg:mb-8 md:mb-8 sm:mb-16 mn:mb-16 justify-between">
             <div className=" flex flex-row justify-between lg:w-7/12 lg:mb-0 sm:mb-10 xl:mr-52">
-                <div className="lg:w-36 md:w-36 mn:w-16">
+                <div className="lg:w-32 md:w-36 mn:w-16">
                     <Image src="/logoCircle.png" alt="Passage West Logo" width={150} height={150} />
                 </div>
                 <div className="flex flex-col">
@@ -20,7 +20,7 @@ const Footer = () => {
                     <span className="text-gray font-thin sm:text-base mn:text-sm">Saturday - Sunday: 2pm - 5pm</span>
                 </div>
             </div>
-            <div className="flex lg:flex-row mn:flex-row lg:w-5/12 justify-between">
+            <div className="flex lg:flex-row mn:flex-row lg:w-5/12 sm:mx-0 mn:mx-5 justify-between">
                 <div className="flex flex-col">
                     <h4 className="text-4xl font-cookie mb-1">Contact</h4>
                     <span className="text-gray font-thin sm:text-base mn:text-sm">087 1357634</span>

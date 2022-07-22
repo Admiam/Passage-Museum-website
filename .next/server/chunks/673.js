@@ -38,7 +38,7 @@ const Footer = ()=>{
                         className: " flex flex-row justify-between lg:w-7/12 lg:mb-0 sm:mb-10 xl:mr-52",
                         children: [
                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                className: "lg:w-36 md:w-36 mn:w-16",
+                                className: "lg:w-32 md:w-36 mn:w-16",
                                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
                                     src: "/logoCircle.png",
                                     alt: "Passage West Logo",
@@ -74,7 +74,7 @@ const Footer = ()=>{
                         ]
                     }),
                     /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                        className: "flex lg:flex-row mn:flex-row lg:w-5/12 justify-between",
+                        className: "flex lg:flex-row mn:flex-row lg:w-5/12 sm:mx-0 mn:mx-5 justify-between",
                         children: [
                             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                 className: "flex flex-col",

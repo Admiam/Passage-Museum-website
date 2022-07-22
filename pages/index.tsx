@@ -22,7 +22,7 @@ const Home: NextPage = () => {
           <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js" async/>
         </Head>
         <main>
-          <div className="xl:bg-[url('../public/bg2x.png')] bg-cover bg-top bg-center pt-[1px] top-0 text-w w-full sm:bg-[url('../public/mobileBg.png')] mn:bg-[url('../public/mobileBg-mini.png')]">
+          <div className="xl:bg-[url('../public/bg2x.png')] bg-cover bg-top pt-[1px] top-0 text-w w-full sm:bg-[url('../public/mobileBg.png')] mn:bg-[url('../public/mobileBg-mini.png')]">
             <Navbar/>
             <div className="xl:mt-[354px] xl:ml-[476px] lg:mt-[450px] lg:ml-[200px] md:mt-[354px] md:ml-[200px] sm:mt-[250px] sm:ml-[100px] mn:ml-12 mn:mt-[180px]">
               <Image className="" src="/sirius.png" alt="Sirius ship" width={149} height={74}></Image>

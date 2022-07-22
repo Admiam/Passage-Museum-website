@@ -39,7 +39,7 @@ const ExplorePage = () => {
           </div>
         </div>
       </div>
-      <div className="text-w flex flex-col xl:px-24 md:px-36 sm:px-16 justify-between pt-12">
+      <div className="text-w flex flex-col xl:px-24 md:px-36 sm:px-16 justify-between md:pt-36 mn:pt-72 mn:px-2">
         <Footer />
       </div>
     </div>
