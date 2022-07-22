@@ -1,41 +1,43 @@
 import Image from 'next/image'
 import { GrFacebookOption } from 'react-icons/gr'
-import { AiFillInstagram } from 'react-icons/ai'
 import { AiOutlineTwitter } from 'react-icons/ai'
-import { IoLogoTiktok } from "react-icons/io5"
 import { IconContext } from "react-icons"
 import Link from 'next/link'
 
 const Footer = () => {
     return (
     <div className="text-w">
-        <div className="flex flex-row w-full justify-between xl:mb-0 md:mb-8">
-          <div className="xl:w-36 md:w-16">
-            <Image src="/logoCircle.png" alt="Passage West Logo" width={150} height={150} />
-          </div>
-          <div className="flex flex-col">
-            <h4 className="text-4xl font-cookie mb-1">Visit</h4>
-            <span className="text-gray font-thin">Passage West Maritime Museum</span>
-            <span className="text-gray font-thin">Main St, Passage West, Co. Cork</span>
-            <span className="text-gray font-thin">Wednesday - Friday: 2pm - 5:30pm</span>
-            <span className="text-gray font-thin">Saturday - Sunday: 2pm - 5pm</span>
-          </div>
-          <div className="flex flex-col">
-            <h4 className="text-4xl font-cookie mb-1">Contact</h4>
-            <span className="text-gray font-thin">087 1357634</span>
-            <span className="text-gray font-thin">info@passagemuseum.ie</span>
-          </div>
-          <div className="flex flex-col">
-            <h4 className="text-4xl font-cookie mb-1">Explore</h4>
-            <div className="text-gray font-thin flex flex-col">
-                <Link href="/#blog" className="text-gray font-thin">Blog</Link>
-                <Link href="/#pricing" className="text-gray font-thin">Pricing</Link>
-                <Link href="/#explore" className="text-gray font-thin">Explore us</Link>
-                <Link href="https://www.patreon.com/" className="text-gray font-thin">Donate</Link>
+        <div className="flex lg:flex-row sm:flex-col mn:flex-col w-full xl:mb-0 lg:mb-8 md:mb-8 sm:mb-16 mn:mb-16 justify-between">
+            <div className=" flex flex-row justify-between lg:w-7/12 lg:mb-0 sm:mb-10 xl:mr-52">
+                <div className="lg:w-36 md:w-36 mn:w-16">
+                    <Image src="/logoCircle.png" alt="Passage West Logo" width={150} height={150} />
+                </div>
+                <div className="flex flex-col">
+                    <h4 className="text-4xl font-cookie mb-1">Visit</h4>
+                    <span className="text-gray font-thin sm:text-base mn:text-sm">Passage West Maritime Museum</span>
+                    <span className="text-gray font-thin sm:text-base mn:text-sm">Main St, Passage West, Co. Cork</span>
+                    <span className="text-gray font-thin sm:text-base mn:text-sm">Wednesday - Friday: 2pm - 5:30pm</span>
+                    <span className="text-gray font-thin sm:text-base mn:text-sm">Saturday - Sunday: 2pm - 5pm</span>
+                </div>
             </div>
-          </div>
+            <div className="flex lg:flex-row mn:flex-row lg:w-5/12 justify-between">
+                <div className="flex flex-col">
+                    <h4 className="text-4xl font-cookie mb-1">Contact</h4>
+                    <span className="text-gray font-thin sm:text-base mn:text-sm">087 1357634</span>
+                    <span className="text-gray font-thin sm:text-base mn:text-sm">info@passagemuseum.ie</span>
+                </div>
+                <div className="flex flex-col">
+                    <h4 className="text-4xl font-cookie mb-1">Explore</h4>
+                    <div className="text-gray font-thin flex flex-col">
+                        <Link href="/#blog" className="text-gray font-thin sm:text-base mn:text-sm">Blog</Link>
+                        <Link href="/#pricing" className="text-gray font-thin sm:text-base mn:text-sm">Pricing</Link>
+                        <Link href="/#explore" className="text-gray font-thin sm:text-base mn:text-sm">Explore us</Link>
+                        <Link href="https://www.patreon.com/" className="text-gray font-thin sm:text-base mn:text-sm">Donate</Link>
+                    </div>
+                </div>
+            </div>
          </div>
-          <div className="relative flex py-5 items-center h-8">
+          <div className="relative flex pt-10 items-center h-8">
             <div className="flex-grow border-t border-gray"></div>
             <span className="flex-shrink mx-4 text-gray-400">
               <div className="flex flex-row space-x-7 items-center">

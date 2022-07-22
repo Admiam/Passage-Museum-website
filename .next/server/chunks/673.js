@@ -32,88 +32,98 @@ const Footer = ()=>{
         className: "text-w",
         children: [
             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: "flex flex-row w-full justify-between xl:mb-0 md:mb-8",
+                className: "flex lg:flex-row sm:flex-col mn:flex-col w-full xl:mb-0 lg:mb-8 md:mb-8 sm:mb-16 mn:mb-16 justify-between",
                 children: [
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                        className: "xl:w-36 md:w-16",
-                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
-                            src: "/logoCircle.png",
-                            alt: "Passage West Logo",
-                            width: 150,
-                            height: 150
-                        })
-                    }),
                     /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                        className: "flex flex-col",
+                        className: " flex flex-row justify-between lg:w-7/12 lg:mb-0 sm:mb-10 xl:mr-52",
                         children: [
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h4", {
-                                className: "text-4xl font-cookie mb-1",
-                                children: "Visit"
-                            }),
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                                className: "text-gray font-thin",
-                                children: "Passage West Maritime Museum"
-                            }),
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                                className: "text-gray font-thin",
-                                children: "Main St, Passage West, Co. Cork"
-                            }),
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                                className: "text-gray font-thin",
-                                children: "Wednesday - Friday: 2pm - 5:30pm"
-                            }),
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                                className: "text-gray font-thin",
-                                children: "Saturday - Sunday: 2pm - 5pm"
-                            })
-                        ]
-                    }),
-                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                        className: "flex flex-col",
-                        children: [
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h4", {
-                                className: "text-4xl font-cookie mb-1",
-                                children: "Contact"
-                            }),
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                                className: "text-gray font-thin",
-                                children: "087 1357634"
-                            }),
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                                className: "text-gray font-thin",
-                                children: "info@passagemuseum.ie"
-                            })
-                        ]
-                    }),
-                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                        className: "flex flex-col",
-                        children: [
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h4", {
-                                className: "text-4xl font-cookie mb-1",
-                                children: "Explore"
+                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                className: "lg:w-36 md:w-36 mn:w-16",
+                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
+                                    src: "/logoCircle.png",
+                                    alt: "Passage West Logo",
+                                    width: 150,
+                                    height: 150
+                                })
                             }),
                             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                className: "text-gray font-thin flex flex-col",
+                                className: "flex flex-col",
                                 children: [
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_5___default()), {
-                                        href: "/#blog",
-                                        className: "text-gray font-thin",
-                                        children: "Blog"
+                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h4", {
+                                        className: "text-4xl font-cookie mb-1",
+                                        children: "Visit"
                                     }),
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_5___default()), {
-                                        href: "/#pricing",
-                                        className: "text-gray font-thin",
-                                        children: "Pricing"
+                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
+                                        className: "text-gray font-thin sm:text-base mn:text-sm",
+                                        children: "Passage West Maritime Museum"
                                     }),
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_5___default()), {
-                                        href: "/#explore",
-                                        className: "text-gray font-thin",
-                                        children: "Explore us"
+                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
+                                        className: "text-gray font-thin sm:text-base mn:text-sm",
+                                        children: "Main St, Passage West, Co. Cork"
                                     }),
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_5___default()), {
-                                        href: "https://www.patreon.com/",
-                                        className: "text-gray font-thin",
-                                        children: "Donate"
+                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
+                                        className: "text-gray font-thin sm:text-base mn:text-sm",
+                                        children: "Wednesday - Friday: 2pm - 5:30pm"
+                                    }),
+                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
+                                        className: "text-gray font-thin sm:text-base mn:text-sm",
+                                        children: "Saturday - Sunday: 2pm - 5pm"
+                                    })
+                                ]
+                            })
+                        ]
+                    }),
+                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                        className: "flex lg:flex-row mn:flex-row lg:w-5/12 justify-between",
+                        children: [
+                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                className: "flex flex-col",
+                                children: [
+                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h4", {
+                                        className: "text-4xl font-cookie mb-1",
+                                        children: "Contact"
+                                    }),
+                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
+                                        className: "text-gray font-thin sm:text-base mn:text-sm",
+                                        children: "087 1357634"
+                                    }),
+                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
+                                        className: "text-gray font-thin sm:text-base mn:text-sm",
+                                        children: "info@passagemuseum.ie"
+                                    })
+                                ]
+                            }),
+                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                className: "flex flex-col",
+                                children: [
+                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h4", {
+                                        className: "text-4xl font-cookie mb-1",
+                                        children: "Explore"
+                                    }),
+                                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                        className: "text-gray font-thin flex flex-col",
+                                        children: [
+                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_5___default()), {
+                                                href: "/#blog",
+                                                className: "text-gray font-thin sm:text-base mn:text-sm",
+                                                children: "Blog"
+                                            }),
+                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_5___default()), {
+                                                href: "/#pricing",
+                                                className: "text-gray font-thin sm:text-base mn:text-sm",
+                                                children: "Pricing"
+                                            }),
+                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_5___default()), {
+                                                href: "/#explore",
+                                                className: "text-gray font-thin sm:text-base mn:text-sm",
+                                                children: "Explore us"
+                                            }),
+                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_5___default()), {
+                                                href: "https://www.patreon.com/",
+                                                className: "text-gray font-thin sm:text-base mn:text-sm",
+                                                children: "Donate"
+                                            })
+                                        ]
                                     })
                                 ]
                             })
@@ -122,7 +132,7 @@ const Footer = ()=>{
                 ]
             }),
             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: "relative flex py-5 items-center h-8",
+                className: "relative flex pt-10 items-center h-8",
                 children: [
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                         className: "flex-grow border-t border-gray"
