@@ -32,7 +32,7 @@ const Footer = () => {
                         <Link href="/#blog" className="text-gray font-thin sm:text-base mn:text-sm">Blog</Link>
                         <Link href="/#pricing" className="text-gray font-thin sm:text-base mn:text-sm">Pricing</Link>
                         <Link href="/#explore" className="text-gray font-thin sm:text-base mn:text-sm">Explore us</Link>
-                        <Link href="https://www.patreon.com/" className="text-gray font-thin sm:text-base mn:text-sm">Donate</Link>
+                        <Link href="https://www.gofundme.com/f/passage-west-maritime-musuem?utm_campaign=p_lico+share-sheet&utm_medium=chat&utm_source=whatsapp-visit" className="text-gray font-thin sm:text-base mn:text-sm">Donate</Link>
                     </div>
                 </div>
             </div>

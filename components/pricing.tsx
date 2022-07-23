@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const Pricing = () => {
   return (
@@ -68,7 +69,9 @@ const Pricing = () => {
                       <p>Richard Hingston came late to the British Everest adventure of 1921-24, but he was without doubt one of the most compelling of all the characters in that epic mountaineering saga. A seasoned explorer, he was a brilliant naturalist, a highly decorated soldier, and ...</p>
                     </div>
                     <div className="flex flex-row justify-between mt-5">
-                      <button className="bg-orange px-2 py-0.5 text-text font-sans">See more</button>
+                      <Link href="https://selfpublishbooks.ie/passage-to-everest-and-beyond-by-jim-murphy/">
+                          <button className="bg-orange px-2 py-0.5 text-text font-sans">See more</button>
+                      </Link>
                       <span className="font-medium font-cookie text-4xl">20 €</span>
                     </div>
                   </div>
@@ -80,7 +83,9 @@ const Pricing = () => {
               </div>       
             </div>
             <div className="justify-center flex">
-              <button className="font-cookie text-4xl bg-orange text-text py-1 px-14 mt-5">Donate</button>
+              <Link href="https://www.gofundme.com/f/passage-west-maritime-musuem?utm_campaign=p_lico+share-sheet&utm_medium=chat&utm_source=whatsapp-visit">
+                <button className="font-cookie text-4xl bg-orange text-text py-1 px-14 mt-5">Donate</button>
+              </Link>
             </div>
     </div>
   )
