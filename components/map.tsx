@@ -5,7 +5,7 @@ const Map = () => {
   return (
   <div>
     <div className="absolute xl:right-24 xl:top-[2200px] md:top-[3000px] md:right-10 sm:right-4 sm:top-[2600px] mn:right-4 mn:top-[2100px] xl:w-60 md:w-40 sm:w-40 mn:w-40">
-      <Image className="" src="/compassMap.png" alt="Compass" width={294} height={294}></Image>
+      <Image className="" src="/compassMapO.png" alt="Compass" width={294} height={294}></Image>
     </div>
     <h1 className="sm:text-7xl mn:text-6xl text-center font-500 font-cookie m-10" id="location">Where we are</h1>
     <div className="flex md:flex-row mn:flex-col md:justify-between">

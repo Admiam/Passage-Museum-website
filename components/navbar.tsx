@@ -12,7 +12,7 @@ const Navbar = () => {
             duration-500 ${!isOpen ? '' : 'mn:bg-b md:bg-b/0'}`}>
               <div className="items-center flex">
                 <Link href="/" >
-                    <Image src="/icon.png" alt="logo" width={34} height={20} />
+                    <Image src="/iconO.png" alt="logo" width={34} height={20} />
                 </Link>
               </div>
               <nav className="">

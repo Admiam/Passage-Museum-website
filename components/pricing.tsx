@@ -77,8 +77,8 @@ const Pricing = () => {
                   </div>
                 </div>
                 <div className="flex flex-row justify-between">
-                  <Image src="/botL.png" alt="image" width={43} height={43}></Image>
-                  <Image src="/botP.png" alt="image" width={43} height={43}></Image>
+                  <Image src="/botLO.png" alt="image" width={43} height={43}></Image>
+                  <Image src="/botPO.png" alt="image" width={43} height={43}></Image>
                 </div>
               </div>       
             </div>

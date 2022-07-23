@@ -16,13 +16,13 @@ const Home: NextPage = () => {
         <Head>
           <title>Passage West Maritime Museum</title>
           <link rel="icon" href="/favicon.ico" />
-          <meta name="description" content="Visit our museum"/>
+          <meta name="description" content="The Museum’s collection extends across a range of categories such as maritime history, shipbuilding and ship repair, emigration, the US naval presence in Cork Harbour and of course the stories of the generations of seamen associated with the town."/>
           <meta name="og:title" content="Passage West Maritime Museum"/>
           <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js" async/>
           <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js" async/>
         </Head>
         <main>
-          <div className="xl:bg-[url('../public/bg2x.png')] bg-cover bg-top pt-[1px] top-0 text-w w-full sm:bg-[url('../public/mobileBg.png')] mn:bg-[url('../public/mobileBg-mini.png')]">
+          <div className="xl:bg-[url('../public/bg2xO.png')] bg-cover bg-top pt-[1px] top-0 text-w w-full sm:bg-[url('../public/mobileBg.png')] mn:bg-[url('../public/mobileBg-mini.png')]">
             <Navbar/>
             <div className="xl:mt-[354px] xl:ml-[476px] lg:mt-[450px] lg:ml-[200px] md:mt-[354px] md:ml-[200px] sm:mt-[250px] sm:ml-[100px] mn:ml-12 mn:mt-[180px]">
               <Image className="" src="/sirius.png" alt="Sirius ship" width={149} height={74}></Image>
@@ -42,7 +42,7 @@ const Home: NextPage = () => {
               <Pricing />
             </div>
             <div className="absolute left-10 xl:w-52 sm:w-40 mn:w-40 mn:mt-10 sm:mt-0">
-                    <Image src="/compass.png" alt="compass" width={215} height={215}></Image>
+                    <Image src="/compassO.png" alt="compass" width={215} height={215}></Image>
             </div>
             <div className="mt-80">
               <Explore path="/exploreUs" />
