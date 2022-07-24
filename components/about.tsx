@@ -1,9 +1,29 @@
 import React from 'react'
 import Image from 'next/image'
+import { NextSeo } from 'next-seo';
+
+const title = 'Passage West Maritime Museum'
+const url = 'https://www.admiam.com/#about'
 
 const About = () => {
   return (
     <div>
+      <NextSeo
+      title={title}
+      canonical={url}
+      openGraph={{
+        url: url,
+        title: title,
+        images: [
+          {
+            url: 'https://www.admiam.com/pictureMuseum.png',
+            width: 399,
+            height: 399,
+            alt: 'Passage West Maritime Museum picture',
+          },
+        ],
+      }}
+    />
       <h1 className="text-7xl text-center font-500 font-cookie m-10" id="about">About us</h1>
             <div className="mt-5 xl:flex xl:flex-row-reverse xl:justify-between mn:content-center">
               <div className="rotate-3 lg:float-right md:float-right mn:float-none xl:w-96 lg:w-96 md:w-72 sm:w-64 mn:w-64">

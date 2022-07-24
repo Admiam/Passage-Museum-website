@@ -1,10 +1,22 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
+import { NextSeo } from 'next-seo';
+
+const title = 'Passage West Maritime Museum pricing'
+const url = 'https://www.admiam.com/#pricing'
 
 const Pricing = () => {
   return (
     <div>
+      <NextSeo
+      title={title}
+      canonical={url}
+      openGraph={{
+        url: url,
+        title: title,
+      }}
+    />
       <h1 className="text-7xl text-center font-500 font-cookie m-10" id="pricing">Pricing</h1>
             <div className="flex xl:flex-row mn:flex-col mn:space-y-4 xl:justify-between md:items-center xl:px-24 mn:px-0 mn:items-center">
               <div className="bg-b p-2 w-80 h-full">

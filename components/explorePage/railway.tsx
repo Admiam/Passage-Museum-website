@@ -1,12 +1,32 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
+import { NextSeo } from 'next-seo';
+
+const title = 'Explore Passage West Maritime Museum'
+const url = 'https://www.admiam.com/exploreUs'
 
 const Railway = () => {
   return (
     <div className="flex md:flex-row mn:flex-col text-w">
+      <NextSeo
+      title={title}
+      canonical={url}
+      openGraph={{
+        url: url,
+        title: title,
+        images: [
+          {
+            url: 'https://www.admiam.com/railway2.png',
+            width: 600,
+            height: 327,
+            alt: 'The Cork Blackrock & Passage railway',
+          },
+        ],
+      }}
+    />
       <div className="md:w-1/2 mn:w-full mr-8">
-        <Image src="/railway2.png" alt="Sirius Replica" width={600} height={327} className="rounded-lg" />
+        <Image src="/railway2.png" alt="The Cork Blackrock & Passage railway" width={600} height={327} className="rounded-lg" />
       </div>
       <div className="flex flex-col md:w-1/2 mn:w-full justify-between">
           <h1 className="font-cookie xl:text-5xl mn:text-4xl">The Cork Blackrock & Passage railway</h1>

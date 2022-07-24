@@ -1,10 +1,30 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
+import { NextSeo } from 'next-seo';
+
+const title = 'Explore Passage West Maritime Museum'
+const url = 'https://www.admiam.com/exploreUs'
 
 const Sirius = () => {
   return (
     <div className="flex md:flex-row mn:flex-col text-w">
+      <NextSeo
+      title={title}
+      canonical={url}
+      openGraph={{
+        url: url,
+        title: title,
+        images: [
+          {
+            url: 'https://www.admiam.com/sirius.png',
+            width: 529,
+            height: 409,
+            alt: 'Sirius Replica',
+          },
+        ],
+      }}
+    />
       <div className="md:w-1/2 mn:w-full mr-10">
         <Image src="/sirius.jpg" alt="Sirius Replica" width={529} height={409} className="rounded-lg" />
       </div>

@@ -1,9 +1,41 @@
 import React from 'react'
 import Image from 'next/image'
+import { NextSeo } from 'next-seo';
+
+const title = 'Where is Passage West Maritime Museum?'
+const url = 'https://www.admiam.com/#location'
 
 const Map = () => {
   return (
   <div>
+    <NextSeo
+      title={title}
+      canonical={url}
+      openGraph={{
+        url: url,
+        title: title,
+        images: [
+          {
+            url: 'https://www.admiam.com/compassMapO.png',
+            width: 294,
+            height: 294,
+            alt: 'Compass',
+          },
+          {
+            url: 'https://www.admiam.com/map.png',
+            width: 784,
+            height: 480,
+            alt: 'Map',
+          },
+          {
+            url: 'https://www.admiam.com/pen3.png',
+            width: 779,
+            height: 920,
+            alt: 'Pen',
+          },
+        ],
+      }}
+    />
     <div className="absolute xl:right-24 xl:top-[2200px] md:top-[3000px] md:right-10 sm:right-4 sm:top-[2600px] mn:right-4 mn:top-[2100px] xl:w-60 md:w-40 sm:w-40 mn:w-40">
       <Image className="" src="/compassMapO.png" alt="Compass" width={294} height={294}></Image>
     </div>

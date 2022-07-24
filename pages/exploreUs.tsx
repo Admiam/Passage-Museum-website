@@ -7,16 +7,29 @@ import Railway from '../components/explorePage/railway'
 import Submarine from '../components/explorePage/submarine'
 import Footer from '../components/footer'
 import Link from 'next/link'
+import { NextSeo } from 'next-seo';
+
+const title = 'Explore Passage West Maritime Museum'
+const url = 'https://www.admiam.com/exploreUs'
 
 
 const ExplorePage = () => {
-  return ( 
+  return (
+  <html>
     <div className="bg-b">  
       <Head>
         <title>Explore us</title>
         <link rel="icon" href="/favicon.ico" />
         <meta name="description" content="Explore our museum"/>
         <meta name="og:title" content="Explore us - Passage West Maritime Museum"/>
+        <NextSeo
+          title={title}
+          canonical={url}
+          openGraph={{
+            url: url,
+            title: title,
+          }}
+        />
       </Head>
       <div className="h-screen">
         <div className="flex flex-row justify-between fixed w-screen z-50 bg-b">
@@ -48,6 +61,7 @@ const ExplorePage = () => {
         <Footer />
       </div>
     </div>
+  </html>
   )
 }
 export default ExplorePage

@@ -1,7 +1,10 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
+import { NextSeo } from 'next-seo';
 
+const title = 'Explore Passage West Maritime Museum'
+const url = 'https://www.admiam.com/#explore'
 
 interface Button {
   path: string
@@ -10,6 +13,22 @@ interface Button {
 const Explore = ({path}: Button) => {
   return (
     <div>
+      <NextSeo
+      title={title}
+      canonical={url}
+      openGraph={{
+        url: url,
+        title: title,
+        images: [
+          {
+            url: 'https://www.admiam.com/pictureSirius.png',
+            width: 543,
+            height: 624,
+            alt: 'Sirius ship',
+          },
+        ],
+      }}
+    />
       <h1 className="text-7xl text-center font-500 font-cookie m-10" id="explore">Explore us</h1>
             <div className="mt-5 flex md:flex-row mn:flex-col justify-between md:items-start mn:items-center">
               <div className="xl:pl-24 md:pl-20 mn:items-center">

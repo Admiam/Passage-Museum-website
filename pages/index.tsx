@@ -16,8 +16,8 @@ const Home: NextPage = () => {
         <Head>
           <title>Passage West Maritime Museum</title>
           <link rel="icon" href="/favicon.ico" />
-          <meta name="description" content="The Museum’s collection extends across a range of categories such as maritime history, shipbuilding and ship repair, emigration, the US naval presence in Cork Harbour and of course the stories of the generations of seamen associated with the town."/>
-          <meta name="og:title" content="Passage West Maritime Museum"/>
+          <meta name="viewport" content="width=device-width"/>
+          <meta name="googlebot" content="index,follow" />
           <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js" async/>
           <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js" async/>
         </Head>

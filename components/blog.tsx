@@ -1,16 +1,49 @@
 import React from 'react'
 import Image from 'next/image'
+import { NextSeo } from 'next-seo';
+
+const title = 'Passage West Maritime Museum blog'
+const url = 'https://www.admiam.com/#blog'
+
 
 const Blog = () => {
   return (
     <div>
+      <NextSeo
+      title={title}
+      canonical={url}
+      openGraph={{
+        url: url,
+        title: title,
+        images: [
+          {
+            url: 'https://www.admiam.com/price.png',
+            width: 262,
+            height: 366,
+            alt: 'Heart of the Community Award',
+          },
+          {
+            url: 'https://www.admiam.com/visitMuseum.png',
+            width: 532,
+            height: 402,
+            alt: 'Museum visit',
+          },
+          {
+            url: 'https://www.admiam.com/patrick.png',
+            width: 475,
+            height: 328,
+            alt: 'Patrick Gerald Murphy visited the museum',
+          },
+        ],
+      }}
+    />
             <h1 className="text-7xl text-center font-500 font-cookie m-10" id="blog">
               Blog
             </h1>
             <div className="flex xl:flex-row mn:flex-col">
               <div className="flex flex-row static">
                 <div className="rotate-6 relative left-3 sm:left-0">
-                  <Image className="z-20" src="/price.png" alt="Sirius ship" width={262} height={366}></Image>
+                  <Image className="z-20" src="/price.png" alt="Heart of the Community Award" width={262} height={366}></Image>
                 </div>
                 <div className="bg-[url('../public/pricePaper.png')] md:py-6 mn:pb-6 sm:pl-6 sm:pr-5 mn:pl-6 mn:pr-2 bg-no-repeat relative top-4 right-1 text-text w-[340px] h-50 z-0">
                   <h2 className="sm:text-xl mn:text-sm text-center font-bold font-sans">
