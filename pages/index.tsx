@@ -18,6 +18,8 @@ const Home: NextPage = () => {
           <link rel="icon" href="/favicon.ico" />
           <meta name="viewport" content="width=device-width"/>
           <meta name="googlebot" content="index,follow" />
+          <meta name="keywords" content="Maritime, Museum, Cork, Ireland, Passage West" />
+          <meta charSet="utf-8"/>
           <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js" async/>
           <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js" async/>
         </Head>
