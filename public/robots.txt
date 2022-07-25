@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://www.admiam.com
+Host: https://www.admiam.com/
 
 # Sitemaps
 Sitemap: https://www.admiam.com/sitemap.xml
